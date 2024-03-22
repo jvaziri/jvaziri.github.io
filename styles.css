@@ -79,12 +79,6 @@ form input[type="submit"]:hover {
 }
 
 
-  @media screen and (max-width: 767px) {
-    nav {
-      font-size: 80%;
-      margin: 3% 5%;
-    }
-  }
   
 h1 {
     display: center flex;
@@ -106,14 +100,7 @@ h1 {
     font-size: 50%;
   }
   
-  @media screen and (max-width: 767px) {
-    h1 {
-      font-size: 300%; /* Adjust font size for smaller screens */
-      margin: 3% 5%; /* Adjust margins for smaller screens */
-      flex-shrink: 0; /* Allow the h1 to shrink on smaller screens */
-    }
-  }
-  
+
 /* Navbar styles relative to global styles in styles.css */
 .navbar {
   background-color: #FFBFFE;
